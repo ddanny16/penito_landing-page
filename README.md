@@ -5,4 +5,4 @@ javascript
 pentio landing page
 header contents
 nav//
-fetch
+fetch api
