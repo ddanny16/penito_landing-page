@@ -1,19 +1,10 @@
-let div = document.getElementById("demo");
+function createNode(element){
+    return document.createElement(element)
+}
+function append (parent, el){
+    return parent.appendChild(el)
+}
+const div = document.getElementById("demo");
+let url = "https://fakestoreapi.com/products?limit=10";
 
-let hOnes = Array.from(div);
-let url = "https://fakestoreapi.com/products";
-
-fetch(url)
-  .then((response) => {
-    return response.json();
-  })
-  .then((result) =>{
-    let products = result.products;
-products.map((products) =>{
-    console.log(products.title)
-    console.log(products.category)
-    console.log(products.rating)
-
-})
-    
-  })
+const createNode = (element)
