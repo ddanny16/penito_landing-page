@@ -1,0 +1,150 @@
+.text1 {
+    font-weight: 700;
+    font-size: 33px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.the_best {
+    color: #F2C229;
+}
+
+.interior {
+    color: #122025;
+    font-weight: 900;
+}
+
+.play {
+    width: 30px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.btn_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:
+        #1C2A2F;
+    gap: 10px;
+
+    &:hover {
+        background-color: #0EBFDD;
+        transition: all 1s ease;
+        border-radius: 9px;
+    }
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    padding: 05px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+
+    .watch {
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &:hover {
+        background-color:
+            #1C2A2F;
+        border-radius: 9px;
+        transition: all 1s ease;
+    }
+}
+
+.all_for_one {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 04%;
+
+}
+
+.topcorner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.img_contain {
+    display: none;
+}
+
+.mother_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.max_text {
+    font-weight: 750;
+    font-size: 32px;
+}
+
+.min_text {
+    color: #58666B;
+    font-size: 19px;
+}
+
+.listing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.qlinks {
+    &:hover {
+        background-color: #1FB890;
+        color: white;
+        padding: .6rem;
+        border-radius: 65px;
+        transition: all 0.5s ease;
+    }
+}
+
+.listing_1 {
+    display: none;
+}
+
+.check1 {
+    display: none;
+
+}
+
+.hamburger1 {
+    display: none;
+}
+
+.navlo {
+    display: none;
+}
