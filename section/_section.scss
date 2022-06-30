@@ -6,7 +6,12 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 4rem;
+}
+.text_center{
+    text-align: center;
+    position: relative;
+    bottom: 19px;
 }
 
 .the_best {
@@ -17,7 +22,11 @@ main {
     color: #122025;
     font-weight: 900;
 }
-
+.over{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 .play {
     width: 30px;
 }
@@ -120,9 +129,15 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    //    gap: 3rem;
 }
 
+
 .qlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
     &:hover {
         background-color: #1FB890;
         color: white;
@@ -148,3 +163,164 @@ main {
 .navlo {
     display: none;
 }
+
+.btn_lob {
+    display: flex;
+    justify-content: center;
+}
+
+#btn_drive {
+    background-color: #122025;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px;
+    width: 8rem;
+    border-radius: 60px;
+    font-size: 14px;
+    margin: 0 auto !important;
+    animation-name: example;
+    animation-duration: 2s;
+
+    &:hover {
+        color: #122025;
+        background: linear-gradient(to left, #fff, #0EBF, #F8FB);
+        font-weight: 600;
+        transition: all 0.6s ease;
+
+    }
+}
+
+@keyframes example {
+    0% {
+        background-color: black;
+        color: white;
+        width: 15rem;
+    }
+
+    25% {
+        background-color: rgb(146, 146, 21);
+        width: 12rem;
+    }
+
+    50% {
+        background-color: blue;
+        color: #fff;
+        width: 8rem;
+    }
+
+    100% {
+        background-color: black;
+        color: white
+
+    }
+}
+// section_3
+// section_3
+// section_3
+// section_3
+
+.sign-up{
+    font-size: 15px;
+    width: 43%;
+
+}
+.sectioneh{
+    background-color: 
+    #FAFAFA;
+    margin: 0 auto;
+   
+}
+
+.cont_text h3{
+    font-size: 25px;
+   
+    
+}
+.product{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.product2{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub_sect{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    
+
+}
+.paralax1{
+    display: none !important;
+}
+
+.sect_sub{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+   justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+    
+}
+.paralax{
+    display: none;
+}
+.pin{
+    font-size: 15px;
+}
+.lorem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero_text{
+    text-align: center;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+}
+.udemy{
+    width: 8rem;
+    &:hover{
+        
+    }
+}
+.jpeg1{
+    display: none;
+}
+.imgsect1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  flex-wrap: wrap;
+  gap:4rem;
+  align-items: center;
+}
+.imgsect2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:4rem;
+    align-items: center;
+}
+.block{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+

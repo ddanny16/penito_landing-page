@@ -1,0 +1,144 @@
+.hover_google{
+    &:hover{
+        transform: scaleY(1.0099);
+        transition:1s all ease;
+    }
+}
+.google_path{
+    &:hover{
+        fill: #1C2A2F;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.google_path1{
+    &:hover{
+        fill: blue;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.hover_cour{
+    &:hover{
+        transform: scaleY(1.1);
+        transition:1s all ease;
+        cursor: pointer;
+    }
+}
+.cour{
+    &:hover{
+        fill: #1C2A2F;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.cour1{
+    &:hover{
+        fill: blue;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.cour_p{
+    &:hover{
+        fill: #1C2A2F;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.duolingo{
+    &:hover{
+        fill:red;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.micr_hard1{
+    &:hover{
+        fill:blue;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.micr_hard2{
+    &:hover{
+        fill:yellow;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.micr_hard3{
+    &:hover{
+        fill:gray;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.micr_hard4{
+    &:hover{
+        fill:rgb(4, 4, 23);
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.micr_hard5{
+    &:hover{
+        fill:rgb(20, 191, 168);
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.udemy{
+    &:hover{
+        fill:#EA5252 ;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.udemy0{
+    &:hover{
+        fill:#645A53;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+stop{
+    &:hover{
+stop-color: red;
+    }
+}
+.air1{
+    &:hover{
+        fill:#777;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.air2{
+    &:hover{
+        fill:rgb(39, 39, 6);
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.air3{
+    &:hover{
+        fill:gray;
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.air4{
+    &:hover{
+        fill:rgb(4, 4, 23);
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
+.air5{
+    &:hover{
+        fill:rgb(20, 191, 168);
+        transition:0.5s all ease;
+    }
+    cursor: pointer;
+}
