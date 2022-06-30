@@ -94,6 +94,10 @@ a:visited {
   background: rgba(1, 1, 1, 0.5);
 }
 
+.header_right {
+  align-items: center;
+}
+
 .text1 {
   font-weight: 700;
   font-size: 33px;
@@ -705,12 +709,14 @@ main {
 
 #items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 5fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 5fr));
   margin: 0 auto;
   width: 90%;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+  row-gap: 10px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
 
 #items li {
@@ -720,7 +726,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #F8FBFB;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
   border: 1px solid #666;
   border-radius: 4px;

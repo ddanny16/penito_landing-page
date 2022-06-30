@@ -17,7 +17,7 @@ fetch(url)
       img = createNode("img");
       span = createNode("span");
       img.src = item.image;
-      span.innerHTML = `${item.title} ${item.category} ${item.price}`;
+      span.innerHTML = `<h3>TITLE:</h3>${item.title} <h3>Category:</h3>${item.category} <h3>Price:</h3>${item.price} <h3>Rate</h3>${item.rating.rate}`;
       append(li, img)
       append(li, span)
       append(div, li)

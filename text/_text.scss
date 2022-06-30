@@ -40,13 +40,15 @@
 }
 #items{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 5fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 5fr));
   // grid-template-columns: auto auto auto auto auto;
   margin:  0 auto;
   width: 90%;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+  row-gap:10px ;
+  column-gap:15px ;
+  // gap: 10px;
 }
 
 
@@ -57,14 +59,17 @@
   justify-content: center;
   align-items: center;
   background-color: #F8FBFB;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
   border: 1px solid #666;
   border-radius: 4px;
+  // line-height: 10px;
+  
   &:hover{
     background-color: #666;
     color: white;
   }
+
 }
 
 #item span{
