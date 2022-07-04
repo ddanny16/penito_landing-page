@@ -438,7 +438,7 @@ main {
 .group{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     gap: 7rem;
 }
 .foh1{
@@ -466,7 +466,7 @@ main {
     justify-content: space-evenly;
     gap: 50px;
     width: 95%;
-    flex-wrap: wrap;
+   
 }
 hr{
     width: 40%;
@@ -477,4 +477,7 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.foh_1{
+    display: none;
 }
