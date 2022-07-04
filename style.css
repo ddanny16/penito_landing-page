@@ -392,6 +392,7 @@ main {
 .udemy {
   width: 8rem;
 }
+
 .jpeg1 {
   display: none;
 }
@@ -424,6 +425,124 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.section_5 {
+  background-color: #FAFAFA;
+  padding: 30px;
+}
+
+.parentCity {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 5fr));
+  text-align: center;
+}
+
+.image_container {
+  position: relative;
+  cursor: pointer;
+}
+.image_container:hover .city_name_view_container {
+  opacity: 1;
+  justify-content: center;
+  width: 90%;
+  left: 5%;
+  height: 98%;
+  top: 2px;
+}
+
+.city_img {
+  justify-content: center;
+}
+.city_img img {
+  border-radius: 3px;
+}
+
+.city_img img {
+  width: 90%;
+}
+
+.city_name_view_container {
+  border-radius: 5px;
+  position: absolute;
+  top: -9%;
+  left: 100%;
+  bottom: 0%;
+  right: 0%;
+  height: 100%;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow: hidden;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+.city_name_view_container .city_name_view {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.all_tog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+
+.foh1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.imh_text {
+  width: 70%;
+  color: #58666B;
+  line-height: 30px;
+}
+
+.bbno {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.foh {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  gap: 50px;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+hr {
+  width: 40%;
+  text-align: left;
+  margin-right: auto;
+}
+
+#wild {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -561,6 +680,13 @@ main {
     display: none !important;
   }
 }
+.all_tog {
+  justify-content: center;
+}
+.all_tog .dot {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
   .listing {
     display: none;
@@ -629,9 +755,11 @@ main {
   }
 
   #toggle:checked ~ .hamburger1 {
-    border: 4px solid red;
+    border: 4px solid #1C2A2F;
     border-radius: 10px;
     padding: 0.4rem;
+    box-shadow: 2rem;
+    cursor: pointer;
   }
 
   .check1 {
@@ -897,4 +1025,21 @@ stop:hover {
 .air5:hover {
   fill: rgb(20, 191, 168);
   transition: 0.5s all ease;
+}
+
+.path_svg {
+  background: #F8FBFB;
+  align-items: center;
+  border-radius: 50%;
+  padding: 20px;
+}
+.path_svg:hover {
+  background-color: #1C2A2F;
+}
+.path_svg .cart_path {
+  background-color: #F8FBFB;
+}
+.path_svg .cart_path:hover {
+  fill: #fff;
+  background: #1C2A2F;
 }/*# sourceMappingURL=style.css.map */

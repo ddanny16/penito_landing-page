@@ -5,11 +5,12 @@
 }
 
 @media screen and (max-width:1250px) {
-    .sect_sub{
+    .sect_sub {
         display: flex;
         flex-wrap: wrap;
     }
-    .sub_sect{
+
+    .sub_sect {
         position: relative;
         overflow-x: hidden;
         display: flex;
@@ -24,6 +25,10 @@
     .header_center {
         display: none;
     }
+
+    // .header_toggle {
+    //     // display: flex;
+    // }
 
     .text {
         text-align: center;
@@ -146,20 +151,28 @@
         display: none !important;
     }
 }
+.all_tog{
+    justify-content: center;
+    .dot{
+        display: none;
+    }
+}
 
 @media screen and (max-width:700px) {
     .listing {
         display: none;
     }
+
     .jpeg1 {
         display: block;
         justify-content: center;
         align-items: center;
         text-align: center;
-        
+
 
     }
-    .jpeg{
+
+    .jpeg {
         display: none;
     }
 
@@ -220,9 +233,12 @@
     }
 
     #toggle:checked~.hamburger1 {
-        border: 4px solid red;
+        border: 4px solid #1C2A2F;
         border-radius: 10px;
         padding: .4rem;
+        box-shadow: 2rem;
+        cursor: pointer;
+        
 
     }
 
@@ -240,6 +256,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 10px;
+        
     }
 
 
@@ -251,7 +268,7 @@
 
     }
 
-    
+
 
     .jpeg {
         display: none;
@@ -307,3 +324,24 @@
 
 
 }
+
+// @media screen  and (max-width:380px) {
+//     .round_chair{
+//         display: none;
+//     }
+//     .penito{
+//        display:none;
+//     }
+// nav{
+//     display: flex;
+//     flex-direction: row !important;
+//     align-items: center;
+// }
+// .jpeg1{
+//     display: none;
+// }
+// .logo_penny{
+//     display: block;
+//     width: 40px; 
+// }
+// }

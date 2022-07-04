@@ -142,3 +142,24 @@ stop-color: red;
     }
     cursor: pointer;
 }
+.path_svg{
+   
+    background:#F8FBFB;
+    align-items: center;
+  
+    border-radius: 50%;
+    padding: 20px;
+  
+    &:hover{
+        background-color: #1C2A2F;
+    }
+    .cart_path{
+        background-color:#F8FBFB;
+        &:hover{
+            fill: #fff;
+            background: #1C2A2F;
+        }
+    }
+
+}
+ 
